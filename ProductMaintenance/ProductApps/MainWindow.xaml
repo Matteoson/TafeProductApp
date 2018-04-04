@@ -14,10 +14,12 @@
         <Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,153,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
-        <Label x:Name="lblTotalCharge" Content="Total Charge after adding&#xD;&#xA; the delivery change ($25)" HorizontalAlignment="Left" Margin="46,203,0,0" VerticalAlignment="Top" Height="44" Width="166"/>
-        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="231,203,0,0" TextWrapping="Wrap" Text="textBlock" VerticalAlignment="Top" Height="44"/>
-        <Label x:Name="lblTotalCharge_Copy" Content="Total Charge after adding&#xA; the wrap change ($5)" HorizontalAlignment="Left" Margin="46,254,0,0" VerticalAlignment="Top" Height="44" Width="166"/>
-        <TextBlock x:Name="totalChargeTextBlockwrap" HorizontalAlignment="Left" Margin="231,254,0,0" TextWrapping="Wrap" Text="textBlock" VerticalAlignment="Top" Height="44"/>
+        <Label x:Name="lblTotalCharge" Content="Total Charge after adding&#xD;&#xA; the delivery change ($25)" HorizontalAlignment="Left" Margin="48,189,0,0" VerticalAlignment="Top" Height="44" Width="166"/>
+        <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Margin="233,189,0,0" TextWrapping="Wrap" Text="textBlock" VerticalAlignment="Top" Height="44"/>
+        <Label x:Name="lblTotalCharge_Copy" Content="Total Charge after adding&#xA; the wrap change ($5)" HorizontalAlignment="Left" Margin="48,240,0,0" VerticalAlignment="Top" Height="44" Width="166"/>
+        <TextBlock x:Name="totalChargeTextBlockwrap" HorizontalAlignment="Left" Margin="233,240,0,0" TextWrapping="Wrap" Text="textBlock" VerticalAlignment="Top" Height="44"/>
+        <Label x:Name="lblTotalCharge_Copy1" Content="Total Charge after GST @10%" HorizontalAlignment="Left" Margin="48,277,0,-0.333" VerticalAlignment="Top" Height="44" Width="166"/>
+        <TextBlock x:Name="totalChargeTextBlockGst" HorizontalAlignment="Left" Margin="233,277,0,-0.333" TextWrapping="Wrap" Text="textBlock" VerticalAlignment="Top" Height="44"/>
 
 
     </Grid>

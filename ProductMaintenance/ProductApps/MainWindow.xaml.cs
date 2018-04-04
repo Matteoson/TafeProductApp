@@ -31,11 +31,15 @@ namespace ProductApps
         {
             try
             {
+
+                
                 cProduct = new Product(Convert.ToDecimal(priceTextBox.Text), Convert.ToInt16(quantityTextBox.Text));
                 cProduct.calTotalPayment();
                 totalPaymentTextBlock.Text = Convert.ToString(cProduct.TotalPayment);
                 totalChargeTextBlock.Text = Convert.ToString(cProduct.TotalPayment + 25);
-                totalChargeTextBlockwrap.Text     = Convert.ToString(cProduct.TotalPayment + 25 + 5);
+                totalChargeTextBlockwrap.Text = Convert.ToString(cProduct.TotalPayment + 25 + 5);
+                Decimal cal = (cProduct.TotalPayment + 25 + 5) + (cProduct.TotalPayment + 25 + 5) / 10;
+                totalChargeTextBlockGst.Text = Convert.ToString(cal);
             }
             catch (FormatException)
             {
